@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width;initial-scale=1.0;">
+        <title>Unhorang Editor</title>
+        <link rel="stylesheet" href="../assets/ttf/roboto-bold/fonts.css">
+        <link rel="stylesheet" href="../assets/ttf/roboto-italic/fonts.css">
+        <link rel="stylesheet" href="../assets/ttf/roboto-light/fonts.css">
+        <link rel="stylesheet" href="../assets/ttf/roboto-regular/fonts.css">
+        <link rel="stylesheet" href="./css/root.css">
+        <link rel="stylesheet" href="./css/theme.css">
+        <link rel="stylesheet" href="../assets/ttf/material-symbols/material-symbols.css">
+    </head>
+    <body>
+        <div class="flexbox-split">
+            <div class="flexbox-image-divider">
+                <img src="../build/icons/512x512.png" width="36">
+            </div>
+            <div class="flexbox-next">
+                <div class="flexbox-menubar">
+                    <span class="submenu">File</span>
+                    <span class="submenu">Edit</span>
+                    <span class="submenu">Project</span>
+                    <span class="submenu">View</span>
+                    <span class="submenu">Help</span>
+                    <div class="flex-dragger"></div>
+                    <div class="flex-actionbar">
+                        <div class="menubar-actions-button" id="minimize">
+                            <span class="material-symbols-outlined">remove</span>
+                        </div>
+                        <div class="menubar-actions-button" id="maximize">
+                            <span class="material-symbols-outlined" id="maximize-text">crop_square</span>
+                        </div>
+                        <div class="menubar-actions-button" id="close">
+                            <span class="material-symbols-outlined">close</span>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="flexbox-tabs">
+                    <div class="tabs-subtabs">
+                        <span>hello</span>
+                        <div class="button-close-tab">
+                            <span class="material-symbols-outlined">close</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            a
+        </div>
+        <script src="../scripts/ResizableWindow.js"></script>
+    </body>
+</html>

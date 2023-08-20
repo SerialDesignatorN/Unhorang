@@ -1,0 +1,20 @@
+{
+  "name": "unhorang",
+  "version": "0.5.0",
+  "description": "Third-party editor and packager for HorangHill games",
+  "main": "entry.js",
+  "author": "zeankun.dev <zeanfender11@gmail.com>",
+  "license": "BSD-2",
+  "private": false,
+  "scripts": {
+    "start": "electron ."
+  },
+  "devDependencies": {
+    "electron": "^25.5.0"
+  },
+  "dependencies": {
+    "@electron/remote": "^2.0.10",
+    "@types/node": "^20.4.10",
+    "electron-reloader": "^1.2.3"
+  }
+}

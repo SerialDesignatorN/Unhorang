@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: var(--main-font);
+    color: var(--main-text-color);
+    background-color: var(--main-ui-color);
+    user-select: none;
+    font-size: 10pt;
+}
+.flexbox-split {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+}
+.flexbox-next {
+    margin-left: 10px;
+    flex: 1;
+}
+.submenu {
+    margin-right: 15px;
+}
+.tabs-subtabs {
+    background-color: var(--main-secondary-ui-color);
+    padding: 5px;
+    margin-top: 5px;
+    padding-left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 25vh;
+}
+.tabs-subtabs .material-symbols-outlined {
+    font-size: 16px;
+    display: inline-flex;
+    margin-top: 5px;
+    align-items: center;
+}
+.tabs-subtabs span {
+    display: inline-flex;
+    align-items: center;
+}
+.flex-dragger {
+    flex: 1;
+    -webkit-app-region: drag;
+    align-items: center;
+    text-align: center;
+    flex-wrap: nowrap;
+    height: calc(4vh);
+    flex-direction: column;
+    align-content: center;
+}
+.flexbox-menubar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.flexbox-menubar > div {
+    margin-right: 10px; /* Add spacing between submenu items */
+}
+
+.flex-actionbar {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+}
+.container {
+    background-color: var(--main-secondary-ui-color);
+    margin-top: -5px;
+    height: 87vh;
+}
+.menubar-actions-button {
+    margin-left: 20px;
+    align-items: center;
+}
